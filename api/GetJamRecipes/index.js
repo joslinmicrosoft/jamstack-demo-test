@@ -15,7 +15,7 @@ module.exports = async function (context, req) {
                     "2 lb. strawberries, halved",
                     "1 c. granulated sugar",
                     "2 tbsp. lemon juice",
-                    "Pinch of kosher salt",
+                    "Pinch of kosher salt"
                 ],
                 "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a30276/strawberry-jam-recipe/",
 				"image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-strawberry-jam-1555107425.jpg?crop=1.00xw:0.947xh;0,0&resize=980:*"
