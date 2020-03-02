@@ -32,12 +32,6 @@ class Recipes extends React.Component {
         ) : (
           fetchedData.map(recipe => (
             <p key={recipe.name}>{recipe.name}</p>
-            <p>Makes {recipe.quantity}</p>
-            <p>Ingredients
-            <ul>
-                recipe.ingredients.map(ingredient => <li>{ingredient}</li>)
-            </ul>
-            </p>
           ))
         )}
       </header>
