@@ -22,6 +22,12 @@ function Home() {
         >
         You can only get here if you've logged in!
         </a>
+		        <a 
+          className="App-link"
+          href="/.auth/login/aad"
+        >
+        Log in with AAD
+        </a>
 
       </header>
     </div>
