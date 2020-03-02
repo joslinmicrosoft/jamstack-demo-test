@@ -1,23 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
-import './Home.css';
+import './App.css';
 
 function Home() {
   return (
-    <div className="Home">
-      <header className="Home-header">
-        <img src={logo} className="Home-logo" alt="logo" />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to our Static App site!
         </p>
         <a
-          className="Home-link"
+          className="App-link"
           href="/.api/GetList"
         >
           Let's try some functions!
         </a>
         <a 
-          className="Home-link"
+          className="App-link"
           href="/authenticated/"
         >
         You can only get here if you've logged in!

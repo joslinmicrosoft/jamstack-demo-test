@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './Home.css';
+import './App.css';
 
 function Authenticated() {
   return (
-    <div className="Authenticated">
-      <header className="Authenticated-header">
-        <img src={logo} className="Authenticated-logo" alt="logo" />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Thank you for logging in!
         </p>
