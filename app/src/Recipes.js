@@ -34,14 +34,12 @@ class Recipes extends React.Component {
           fetchedData.map(recipe => (
 			<div class="row marketing">
 				<div class="col">
-				  <h2>{recipe.name}</h2>
-				  <h3>Serves {recipe.quantity}</h3>
-				  <h3>Ingredients</h3>
-				  <ul id="metric" class="ingredients">
-					recipes.ingredients.map(ingredient => (<li>{ingredient}</li>))
-				  </ul>
+				  <h2><a href={recipe.url}>{recipe.name}</a></h2>
+				  <h3>Makes {recipe.quantity}</h3>
+				  <img src={recipe.image} alt=""/>
 				</div>
-			</div>)
+			</div>
+			)
 			)
 		)
 		}
