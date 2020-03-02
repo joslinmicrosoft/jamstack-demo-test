@@ -29,15 +29,22 @@ class Recipes extends React.Component {
       <h1>JAM Recipes</h1>
         {loading ? (
           <p>Searching for recipes ..... </p>
-        ) : (
+		) : 
+		(
           fetchedData.map(recipe => (
-<div class="row marketing">
-	<div class="col">
-      <h1>{recipe.name}</h1>
-      <h2>Serves {recipe.quantity}</h2>
-	</div>
-</div>
-)))}
+			<div class="row marketing">
+				<div class="col">
+				  <h2>{recipe.name}</h2>
+				  <h3>Serves {recipe.quantity}</h3>
+				  <h3>Ingredients</h3>
+				  <ul id="metric" class="ingredients">
+					recipes.ingredients.map(ingredient => (<li>{ingredient}</li>))
+				  </ul>
+				</div>
+			</div>)
+			)
+		)
+		}
       </header>
     </div>
     )
