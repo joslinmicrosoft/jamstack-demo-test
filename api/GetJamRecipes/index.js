@@ -7,6 +7,9 @@ module.exports = async function (context, req) {
         : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
     const recipes = {
+		"count" : 3,
+		"previous" : null,
+		"next" : null,
         "results": [
             {
                 "name": "Homemade Strawberry Jam",

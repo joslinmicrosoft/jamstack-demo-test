@@ -26,12 +26,18 @@ class Recipes extends React.Component {
     return (
     <div className="App">
       <header className="App-header">
-	  <h1>JAM Recipes</h1>
-		{loading ? (
+      <h1>JAM Recipes</h1>
+        {loading ? (
           <p>Searching for recipes ..... </p>
         ) : (
           fetchedData.map(recipe => (
             <p key={recipe.name}>{recipe.name}</p>
+            <p>Makes {recipe.quantity}</p>
+            <p>Ingredients
+            <ul>
+                recipe.ingredients.map(ingredient => <li>{ingredient}</li>)
+            </ul>
+            </p>
           ))
         )}
       </header>
