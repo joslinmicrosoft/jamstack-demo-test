@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class Recipes extends React.Component {
@@ -28,11 +27,8 @@ class Recipes extends React.Component {
     <div className="App">
       <header className="App-header">
 	  <h1>JAM Recipes</h1>
-        <p>
-          Thank you for logging in!
-        </p>
 		{loading ? (
-          <p>Searching galaxy ..... </p>
+          <p>Searching for recipes ..... </p>
         ) : (
           fetchedData.map(recipe => (
             <p key={recipe.name}>{recipe.name}</p>
@@ -44,4 +40,4 @@ class Recipes extends React.Component {
   }
 }
 
-export default FunctionsPage
+export default Recipes
