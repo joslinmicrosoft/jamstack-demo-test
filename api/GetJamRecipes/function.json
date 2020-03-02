@@ -1,15 +1,14 @@
 {
   "bindings": [
     {
-      "authLevel": "admin",
+      "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
       "methods": [
         "get",
-        "post"
       ],
-	  "route": "GetList"
+	  "route": "GetJamRecipes"
     },
     {
       "type": "http",
