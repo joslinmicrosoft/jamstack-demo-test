@@ -34,14 +34,7 @@ class Recipes extends React.Component {
 <div class="row marketing">
 	<div class="col">
       <h1>{recipe.name}</h1>
-      // <img src={recipe.url} class="img-fluid" />
-
       <h2>Serves {recipe.quantity}</h2>
-
-      // <h2>Ingredients</h2>
-      // <ul id="metric" class="ingredients">
-        // recipes.ingredients.map(ingredient => (<li>{ingredient}</li>        
-      // </ul>
 	</div>
 </div>
 )))}
