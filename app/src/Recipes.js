@@ -33,7 +33,7 @@ class Recipes extends React.Component {
           fetchedData.map(recipe => (
 <div class="row marketing">
 	<div class="col">
-      <h1>{recipe.name]</h1>
+      <h1>{recipe.name}</h1>
       // <img src={recipe.url} class="img-fluid" />
 
       <h2>Serves {recipe.quantity}</h2>
