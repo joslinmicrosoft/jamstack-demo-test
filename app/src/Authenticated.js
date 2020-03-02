@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './Authenticated.css';
+import './Home.css';
 
 function Authenticated() {
   return (
