@@ -34,9 +34,9 @@ class Recipes extends React.Component {
           fetchedData.map(recipe => (
 			<div class="row marketing">
 				<div class="col">
-				  <h2><a href={recipe.url}>{recipe.name}</a></h2>
+				  <h2><a className="App-link" href={recipe.url}>{recipe.name}</a></h2>
 				  <h3>Makes {recipe.quantity}</h3>
-				  <img src={recipe.image} alt="" width="770" />
+				  <img src={recipe.image} alt="" width="300" />
 				</div>
 			</div>
 			)

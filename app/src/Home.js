@@ -8,7 +8,7 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to our Static App site!
+          Welcome to my recipes site!
         </p>
         <a
           className="App-link"
@@ -20,13 +20,13 @@ function Home() {
           className="App-link"
           href="/authenticated/"
         >
-        You can only get here if you've logged in!
+        This is gated content. Please login below.
         </a>
 		        <a 
           className="App-link"
-          href="/.auth/login/aad"
+          href="/.auth/login/facebook"
         >
-        Log in with AAD
+        Log in with Facebook
         </a>
 
       </header>

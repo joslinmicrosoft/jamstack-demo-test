@@ -7,9 +7,10 @@ function Authenticated() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1>
+          Welcome to your gated content demo. <br/>
           Thank you for logging in!
-        </p>
+        </h1>
       </header>
     </div>
   );
