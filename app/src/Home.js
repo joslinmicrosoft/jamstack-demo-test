@@ -10,6 +10,12 @@ function Home() {
         <p>
           Welcome to my recipes site!
         </p>
+        <a
+          className="App-link"
+          href="/recipes/"
+        >
+          Let's try some functions!
+        </a>
         <a 
           className="App-link"
           href="/authenticated/"
