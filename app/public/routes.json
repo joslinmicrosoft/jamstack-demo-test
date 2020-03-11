@@ -7,7 +7,7 @@
             "statusCode" : 200
         },
         {
-            "route" : "/recipes/*",
+            "route" : "/*",
 	    "serve" : "/index.html",
             "statusCode" : 200
         }
