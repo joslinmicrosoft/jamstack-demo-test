@@ -3,7 +3,7 @@
 		{
 			"route" : "/authenticated/*",
 			"serve" : "/index.html",
-			"allowedRoles" : ["authenticated", "myrolemyrolemyrolemyrole1"],
+			"allowedRoles" : ["authenticated", "myrole!"],
 			"statusCode" : 200
 		}
 	]
