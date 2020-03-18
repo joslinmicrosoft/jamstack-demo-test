@@ -2,7 +2,7 @@
   "bindings": [
     {
       "authLevel": "anonymous",
-      "type": "httpTrigger",
+      "type": "queueTrigger",
       "direction": "in",
       "name": "req",
       "methods": [
