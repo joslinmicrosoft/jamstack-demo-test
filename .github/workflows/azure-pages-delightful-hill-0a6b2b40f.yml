@@ -27,7 +27,7 @@ jobs:
         app_location: '/' # App source code path
         api_location: 'api' # Api source code path - optional
         app_artifact_location: '' # Built app content directory - optional
-        app_build_command_override: 'echo apphello && npm run build'
+        app_build_command_override: 'echo apphello && npmasfewasdf run build'
         api_build_command_override: 'echo apihello'
         ###### End of Repository/Build Configurations ######
 
