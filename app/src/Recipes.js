@@ -9,7 +9,7 @@ class Recipes extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/.api/GetJamRecipes")
+    fetch("/api/GetJamRecipes")
       .then(response => {
         return response.json()
       })
