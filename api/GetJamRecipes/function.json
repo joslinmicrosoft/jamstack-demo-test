@@ -8,7 +8,7 @@
       "methods": [
         "get"
       ],
-	  "route": "GetJamRecipes"
+      "route": "GetJamRecipes"
     },
     {
       "type": "http",
