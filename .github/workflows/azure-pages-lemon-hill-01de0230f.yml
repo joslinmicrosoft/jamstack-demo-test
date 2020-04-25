@@ -36,7 +36,7 @@ jobs:
     steps:
     - name: Close Pull Request
       id: closepullrequest
-      uses: joslinmicrosoft/staticsitesaction@joslin
+      uses: joslinmicrosoft/staticsitesactionoryx@joslin
       with:
         azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_LEMON_HILL_01DE0230F }}
         action: 'close'
