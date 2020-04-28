@@ -3,7 +3,7 @@
   "extensions" :
   {
     "http" : {
-      "routePrefix" : "test"
+      "routePrefix" : "api"
     }
   }
 }
